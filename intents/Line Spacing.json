@@ -1,0 +1,88 @@
+{
+  "id": "ff048308-d214-4340-afb3-780d09297311",
+  "name": "Line Spacing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0719a54e-aa56-43ca-a9ba-9b789459af85",
+          "name": "linespacing",
+          "required": true,
+          "dataType": "@LineSpacing",
+          "value": "$linespacing",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Line Spacing Importance\n• Enhances readability and legibility.\n• Importance for user experience.\n• Also known as leading."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://miro.medium.com/v2/resize:fit:11040/1*iDnA-8bqi11I1H2zChTEFg.png",
+                  "type": "image",
+                  "accessibilityText": "Example logo"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Line Readability"
+                    },
+                    {
+                      "text": "Legibility"
+                    },
+                    {
+                      "text": "Comprehension"
+                    },
+                    {
+                      "text": "Line Accessibility"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

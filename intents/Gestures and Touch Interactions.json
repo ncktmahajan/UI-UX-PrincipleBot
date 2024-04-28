@@ -1,0 +1,85 @@
+{
+  "id": "62ba3273-22af-4203-a663-5eb2e4204961",
+  "name": "Gestures and Touch Interactions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "84e5cd77-742e-4f8a-8050-eb18b57cce70",
+          "name": "gesturesandtouchinteractions",
+          "required": true,
+          "dataType": "@GesturesandTouchInteractions",
+          "value": "$gesturesandtouchinteractions",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"Designing Interfaces for Touch Gestures and Interactions\"\n• Ensuring seamless, intuitive user experience.\n• Supporting touch gestures on mobile devices."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://assets.justinmind.com/wp-content/uploads/2020/03/app-interaction-different-gestures.png",
+                  "accessibilityText": "Example logo",
+                  "type": "image"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "User Flows"
+                    },
+                    {
+                      "text": "Transitions and Animations"
+                    },
+                    {
+                      "text": "User Control and Freedom"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

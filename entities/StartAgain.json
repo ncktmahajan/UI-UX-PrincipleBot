@@ -1,0 +1,9 @@
+{
+  "id": "b8d39340-4d0d-4842-907b-2a50814b46f1",
+  "name": "StartAgain",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

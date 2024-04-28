@@ -1,0 +1,88 @@
+{
+  "id": "719c396e-9312-474a-ad6f-db4188722857",
+  "name": "Responsive Typography",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "647b310c-ded8-48ba-97fe-a97f8ffd9d3a",
+          "name": "responsivetypography",
+          "required": true,
+          "dataType": "@ResponsiveTypography",
+          "value": "$responsivetypography",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Responsive Typography in Web Design\n• Adapts font sizes, line lengths, and spacing.\n• Ensures optimal readability across devices and screen sizes.\n• Crucial for dynamic content adaptation."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2013/11/ResponsiveTypography.png?x87314",
+                  "accessibilityText": "Example logo",
+                  "type": "image"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Flexible Font Sizes"
+                    },
+                    {
+                      "text": "Dynamic Line Lengths"
+                    },
+                    {
+                      "text": "Adjustable Spacing"
+                    },
+                    {
+                      "text": "Media Queries"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

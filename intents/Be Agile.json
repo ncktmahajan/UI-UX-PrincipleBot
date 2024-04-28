@@ -1,0 +1,76 @@
+{
+  "id": "6fd88f3b-e5d8-4669-b54f-59ddb6b00a95",
+  "name": "Be Agile",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7a3873e3-38e4-4802-9ade-ed55dfd595f2",
+          "name": "BeAgile",
+          "required": true,
+          "dataType": "@BeAgile",
+          "value": "$BeAgile",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adapting User Research to Agile Framework\n\n• Create a research roadmap and backlog for alignment with product roadmaps.\n• Timebox work into similar chunks within sprints.\n• Schedule research days in one or two sprints for team members\u0027 participation.\n• Deliver concise reports for stakeholder information intake.\n• Consider starting a participant panel to expedite recruitment and research."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "image",
+                  "rawUrl": "https://myuxacademy.com/wp-content/uploads/2022/04/image-8.png",
+                  "accessibilityText": "Example logo"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

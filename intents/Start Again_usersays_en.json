@@ -1,0 +1,17 @@
+[
+  {
+    "id": "95c38370-035b-4305-a6be-5c0c8fc95263",
+    "data": [
+      {
+        "text": "Start Again",
+        "meta": "@StartAgain",
+        "alias": "startagain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

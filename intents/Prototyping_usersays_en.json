@@ -1,0 +1,40 @@
+[
+  {
+    "id": "a085838b-83cb-4462-b2c4-896ae134d546",
+    "data": [
+      {
+        "text": "prototype",
+        "meta": "@Prototyping",
+        "alias": "Prototyping",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0a1cbc2-b9f4-4c92-a4b0-cdb4708f5374",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "prototyping",
+        "meta": "@Prototyping",
+        "alias": "Prototyping",
+        "userDefined": true
+      },
+      {
+        "text": " principles?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

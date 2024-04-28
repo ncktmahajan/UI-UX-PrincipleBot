@@ -1,0 +1,80 @@
+{
+  "id": "3db7d6e1-bb06-456b-a1c5-b0df8d2658df",
+  "name": "Line Accessibility",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "eaf73e7f-39ab-4a66-9644-18955a5fac57",
+          "name": "lineaccessibility",
+          "required": true,
+          "dataType": "@LineAccessibility",
+          "value": "$lineaccessibility",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"Accessibility Enhancement through Line Spacing\"\n• Benefits visually impaired or reading-difficult users.\n• Provides sufficient visual separation.\n• Enhances inclusivity."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Line Readability"
+                    },
+                    {
+                      "text": "Legibility"
+                    },
+                    {
+                      "text": "Comprehension"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

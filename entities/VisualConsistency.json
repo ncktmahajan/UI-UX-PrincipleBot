@@ -1,0 +1,9 @@
+{
+  "id": "e46846e8-3f79-4972-ae6a-1aec45b5f72e",
+  "name": "VisualConsistency",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,80 @@
+{
+  "id": "7aa22baa-b5d4-4662-84ad-a0ac5071ecdc",
+  "name": "Flexible Font Sizes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "18785dcf-2ae2-48a9-8c5d-7b0be8eb5b8b",
+          "name": "flexiblefontsizes",
+          "required": true,
+          "dataType": "@FlexibleFontSizes",
+          "value": "$flexiblefontsizes",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Flexible Font Sizes\n• Adjusted based on viewport size.\n• Maintains readability on smaller screens.\n• Maintains legibility and aesthetics."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Dynamic Line Lengths"
+                    },
+                    {
+                      "text": "Adjustable Spacing"
+                    },
+                    {
+                      "text": "Media Queries"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

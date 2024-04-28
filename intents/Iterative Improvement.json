@@ -1,0 +1,85 @@
+{
+  "id": "57f6c12a-299b-4f6c-b699-8969c00692f6",
+  "name": "Iterative Improvement",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1647b63c-62f1-4bdb-b9e6-082b590dfac5",
+          "name": "iterativeimprovement",
+          "required": true,
+          "dataType": "@IterativeImprovement",
+          "value": "$iterativeimprovement",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Iterative Improvement in App Development\n• Continuously monitoring user feedback.\n• Analyzing app analytics.\n• Tracking industry trends.\n• Ensuring app relevance and effectiveness."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Example logo",
+                  "rawUrl": "https://blog.logrocket.com/wp-content/uploads/2023/03/iterative-design-process-circle-chart.png",
+                  "type": "image"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Information Architecture"
+                    },
+                    {
+                      "text": "Visual Design"
+                    },
+                    {
+                      "text": "User Testing"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

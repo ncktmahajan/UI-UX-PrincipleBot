@@ -1,0 +1,9 @@
+{
+  "id": "59ff3e5f-e9f7-46e9-9a45-66d8654fb545",
+  "name": "Accessibility",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "c666ff19-240e-43e8-98b4-86f5a7708816",
+  "name": "AdjustableSpacing",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

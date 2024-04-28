@@ -1,0 +1,88 @@
+{
+  "id": "5cf9c4cf-1304-4d97-bb61-73993d19d543",
+  "name": "Typography",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3728367f-308a-4282-8028-c7de1ade8f0b",
+          "name": "typography",
+          "required": true,
+          "dataType": "@Typography",
+          "value": "$typography",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Typography in UX Design\n• Selection, arrangement, and presentation of text elements for readability, usability, and aesthetic appeal.\n• Involves choosing appropriate typefaces, font sizes, line spacing, etc.\n• Crucial in establishing hierarchy, conveying tone, personality, and ensuring accessibility.\n• Creates visually engaging, easy-to-navigate interfaces for positive user experience."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Example logo",
+                  "rawUrl": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/6096482/og_image/optimized/typeface-classification-f1707430870c13c8f86e2b71fa0c7f48.png",
+                  "type": "image"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Typeface"
+                    },
+                    {
+                      "text": "Font"
+                    },
+                    {
+                      "text": "Alignment"
+                    },
+                    {
+                      "text": "Line Spacing"
+                    },
+                    {
+                      "text": "Responsive Typography"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

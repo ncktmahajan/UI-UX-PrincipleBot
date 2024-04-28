@@ -1,0 +1,137 @@
+{
+  "id": "8f6f01ad-965c-4e77-afd7-d1f2897a031b",
+  "name": "Prototyping",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3373bac8-2d4c-4246-bead-a6aec065aae3",
+          "name": "Prototyping",
+          "required": true,
+          "dataType": "@Prototyping",
+          "value": "$Prototyping",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Here are some principles of prototyping:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Example logo",
+                  "type": "image",
+                  "rawUrl": "https://sealectplastics.com/wp-content/uploads/2020/02/Product-Concept-Design-and-Development-SEA-LECT-Plastics-1024x614.jpg"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Focus on User Experience (UX)"
+                    },
+                    {
+                      "text": "Use the Right Tools"
+                    },
+                    {
+                      "text": "Be Agile"
+                    },
+                    {
+                      "text": "Document Insights"
+                    },
+                    {
+                      "text": "Test Early and Often"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Here are some principles of prototyping:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Start Simple"
+            },
+            {
+              "title": "Iterate Often"
+            },
+            {
+              "title": "Focus on User Experience"
+            },
+            {
+              "title": "Use the Right Tools"
+            },
+            {
+              "title": "Prototype to Learn"
+            },
+            {
+              "title": "Test Early and Often"
+            },
+            {
+              "title": "Be Agile"
+            },
+            {
+              "title": "Prototype Across Platform"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

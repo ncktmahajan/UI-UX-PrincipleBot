@@ -1,0 +1,9 @@
+{
+  "id": "b169a324-9f3e-4491-bd8c-348a5eab2e80",
+  "name": "OptimalWorkshop",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

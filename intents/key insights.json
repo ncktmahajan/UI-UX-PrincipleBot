@@ -1,0 +1,71 @@
+{
+  "id": "dcd1bd72-a445-46ec-9dfe-15dabc9d19d9",
+  "name": "key insights",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d14a0f99-5ac6-46f2-a800-fd4dd0e1f6c9",
+          "name": "key-insights",
+          "required": false,
+          "dataType": "@key-insights",
+          "value": "$key-insights",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "UX Design Insights:\n• Prioritize user needs (User-Centered Design).\n• Simplify design for clarity.\n• Maintain product consistency.\n• Ensure responsiveness for different devices.\n• Design with accessibility in mind (WCAG).\n• Refine based on user feedback.\n• Use visual hierarchy for guidance.\n• Make CTAs clear and action-oriented.\n• Provide immediate user feedback.\n• Conduct thorough user research.\n• Develop user personas for empathy.\n• Experiment with A/B testing.\n• Foster cross-functional collaboration."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "1dc2d089-8dee-4c38-b991-e277e024c415",
+  "name": "IterativeTesting",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

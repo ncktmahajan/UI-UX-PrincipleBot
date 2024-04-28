@@ -1,0 +1,9 @@
+{
+  "id": "9aa47d0d-97c4-4c1d-980a-29f72509c757",
+  "name": "IterativeImprovement",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

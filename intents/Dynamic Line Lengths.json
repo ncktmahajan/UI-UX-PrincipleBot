@@ -1,0 +1,80 @@
+{
+  "id": "a0c5d17f-5d2f-41b7-a750-1c90561edb02",
+  "name": "Dynamic Line Lengths",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8034ab73-2f74-4551-b922-5234f1b784d0",
+          "name": "dynamiclinelengths",
+          "required": true,
+          "dataType": "@DynamicLineLengths",
+          "value": "$dynamiclinelengths",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Dynamic Line Lengths Optimization\n• Prevents excessive line wrapping on narrow screens.\n• Balances readability and visual appeal."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Flexible Font Sizes"
+                    },
+                    {
+                      "text": "Adjustable Spacing"
+                    },
+                    {
+                      "text": "Media Queries"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

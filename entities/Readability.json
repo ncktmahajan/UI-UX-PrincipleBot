@@ -1,0 +1,9 @@
+{
+  "id": "75bac12c-a5b0-4df9-9716-b4c2f6a39282",
+  "name": "Readability",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

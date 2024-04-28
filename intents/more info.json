@@ -1,0 +1,81 @@
+{
+  "id": "a673f419-ec70-4154-af83-d1a2b69f2ea2",
+  "name": "more info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3636696a-6026-4e69-9430-7e15c15f73cf",
+          "name": "moreinfo",
+          "required": false,
+          "dataType": "@Moreinfo",
+          "value": "$moreinfo",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Example logo",
+                  "rawUrl": "https://www.lapabooks.com/assets/images/designingfortheweb.png",
+                  "type": "image"
+                },
+                {
+                  "title": "E-book",
+                  "actionLink": "https://designingfortheweb.co.uk/",
+                  "type": "info"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Start Again?"
+                    },
+                    {
+                      "text": "End..."
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

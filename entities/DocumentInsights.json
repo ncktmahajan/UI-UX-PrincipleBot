@@ -1,0 +1,9 @@
+{
+  "id": "1e5c70f3-9dab-4504-91c9-12ac73ff1136",
+  "name": "DocumentInsights",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

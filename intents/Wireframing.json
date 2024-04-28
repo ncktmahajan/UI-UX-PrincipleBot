@@ -1,0 +1,76 @@
+{
+  "id": "a7db5802-3187-45cd-85d5-74aeda5faf76",
+  "name": "Wireframing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "95cdd04b-829b-49be-bfd5-7a963a15c860",
+          "name": "wireframing",
+          "required": true,
+          "dataType": "@Wireframing",
+          "value": "$wireframing",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Wireframing in UX Design\n• Creates simplified, low-fidelity representations of digital product interface.\n• Outlines webpage or application structure and layout.\n• Serves as blueprint for user interface.\n• Allows planning of content placement, navigation, and interactive components.\n• Facilitates early feedback and iteration."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_wireframing.jpg",
+                  "accessibilityText": "Example logo",
+                  "type": "image"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Types of wireframes"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

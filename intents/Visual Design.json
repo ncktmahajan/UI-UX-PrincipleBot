@@ -1,0 +1,85 @@
+{
+  "id": "71f0c02a-d616-4aa0-b15e-db0278b05e3d",
+  "name": "Visual Design",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fc08c18e-5bb4-497c-bb86-3dd5b864c5ea",
+          "name": "visualdesign",
+          "required": true,
+          "dataType": "@VisualDesign",
+          "value": "$visualdesign",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Visual Design Overview\n• Utilizing color, typography, imagery, iconography.\n• Aligning interface with brand identity."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://www.springboard.com/blog/wp-content/uploads/2020/07/ui-design-vs-ux-design-vs-interaction-design-vs-visual-design-how-do-they-differ.jpg",
+                  "accessibilityText": "Example logo",
+                  "type": "image"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Information Architecture"
+                    },
+                    {
+                      "text": "User Testing"
+                    },
+                    {
+                      "text": "Iterative Improvement"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

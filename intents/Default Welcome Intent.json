@@ -1,0 +1,77 @@
+{
+  "id": "8a6b889a-5a23-44fd-8a98-b9820ab9beeb",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to the UI/UX Principles Bot! 🎨🤖                                                                                                                                                                                                                                                                                                                   \nWhat do you want to know about UI Design...?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "image",
+                  "rawUrl": "https://v4lab-company.s3.ap-south-1.amazonaws.com/images/documents/5567b63222e7f3820549651de79b9a1d.jpg",
+                  "accessibilityText": "Example logo"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Prototyping"
+                    },
+                    {
+                      "text": "Wireframing"
+                    },
+                    {
+                      "text": "Typography"
+                    },
+                    {
+                      "text": "Interaction Design"
+                    },
+                    {
+                      "text": "App Design"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

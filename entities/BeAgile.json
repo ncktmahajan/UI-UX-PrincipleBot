@@ -1,0 +1,9 @@
+{
+  "id": "0c8a520f-a7a5-4756-8f98-af916ae7eabd",
+  "name": "BeAgile",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

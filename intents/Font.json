@@ -1,0 +1,85 @@
+{
+  "id": "82b948a2-705d-4882-ac34-de86152d13f4",
+  "name": "Font",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "835b09b3-4f17-4d31-a8ad-88b1833a3369",
+          "name": "font",
+          "required": true,
+          "dataType": "@Font",
+          "value": "$font",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Font Size Importance\n• Measures character height in typeface.\n• Crucial for readability, visual hierarchy, and device responsiveness."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://public-images.interaction-design.org/literature/articles/heros/56ab9446bc47f.jpg",
+                  "accessibilityText": "Example logo",
+                  "type": "image"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Readability"
+                    },
+                    {
+                      "text": "Hierarchy"
+                    },
+                    {
+                      "text": "Responsiveness"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

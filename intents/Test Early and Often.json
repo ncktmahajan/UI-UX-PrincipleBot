@@ -1,0 +1,64 @@
+{
+  "id": "bedd30bc-e79c-4195-8f42-446a27bca79e",
+  "name": "Test Early and Often",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Early testing of prototypes with real users is crucial to identify usability issues, user needs, and design flaws before investing significant time and resources into development."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "image",
+                  "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTWdX7TF8boNjGlrr-mQ0DM9Shk81hvuYZWr7lt9weHmQ\u0026s",
+                  "accessibilityText": "Example logo"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Iterative Testing"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

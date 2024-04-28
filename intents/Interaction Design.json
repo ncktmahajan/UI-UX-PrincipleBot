@@ -1,0 +1,85 @@
+{
+  "id": "f07ee7c9-982c-4b1b-9c96-9c68c3c25c5e",
+  "name": "Interaction Design",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f843a31d-bcea-4533-924b-3b4e552e9119",
+          "name": "interactiondesign",
+          "required": true,
+          "dataType": "@InteractionDesign",
+          "value": "$interactiondesign",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "UX Interaction Design Overview\n• Focuses on creating intuitive user-digital product interactions.\n• Involves designing interface elements, transitions, animations, and feedback mechanisms.\n• Considers user goals, behaviors, and context for efficient, enjoyable interactions."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "image",
+                  "rawUrl": "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-12-13/b5933270-3d21-11eb-87d3-0fee60e99062.jpg",
+                  "accessibilityText": "Example logo"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "User Flows"
+                    },
+                    {
+                      "text": "Gestures and Touch Interactions"
+                    },
+                    {
+                      "text": "Transitions and Animations"
+                    },
+                    {
+                      "text": "User Control and Freedom"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

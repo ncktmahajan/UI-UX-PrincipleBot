@@ -1,0 +1,76 @@
+{
+  "id": "5d62227e-79e5-40dc-ba22-c2b982e85a39",
+  "name": "Typeface",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7925f4de-5a60-4ca1-af2a-f09d1c94acfd",
+          "name": "typeface",
+          "required": true,
+          "dataType": "@Typeface",
+          "value": "$typeface",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Typeface Overview\n• Design of characters including letters, numbers, and symbols.\n• Common styles: serif, sans-serif, script, display.\n• Serif fonts: Traditional, formal, authoritative for long-form text.\n• Sans-serif fonts: Clean, modern, minimalistic.\n• Script typefaces: Mimic cursive handwriting.\n• Display typefaces: Bold, stylized, suitable for large headlines or decorative purposes."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Example logo",
+                  "type": "image",
+                  "rawUrl": "https://cdn.sanity.io/images/ay6gmb6r/production/41c8bbf715d6685966051dddbc85f68a6da218aa-2240x1260.png"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

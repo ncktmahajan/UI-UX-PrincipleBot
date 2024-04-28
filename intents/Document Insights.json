@@ -1,0 +1,79 @@
+{
+  "id": "a7625c2e-c678-45a1-baf0-e53ed176a062",
+  "name": "Document Insights",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a7fea32f-a369-497a-a085-67e1347a8068",
+          "name": "DocumentInsights",
+          "required": true,
+          "dataType": "@DocumentInsights",
+          "value": "$DocumentInsights",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "UX Insights Documentation\n• Summarizing user research findings.\n• Highlighting user behaviors, preferences, pain points.\n• Guiding design decisions and enhancements."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "image",
+                  "accessibilityText": "Example logo",
+                  "rawUrl": "https://konceptapp.com/assets/images/uploads/uxdocumentation.png"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "key insights "
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

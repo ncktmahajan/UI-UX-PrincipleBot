@@ -1,0 +1,9 @@
+{
+  "id": "a0ef75fe-a751-4712-9b6a-0ce72be16c10",
+  "name": "HierarchyReinforcement",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,80 @@
+{
+  "id": "ecb61437-a066-4d44-aa89-09a81ec8b9c8",
+  "name": "Accessibility",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2e75f20b-e8e7-43b4-9510-f51b8ba6aaf8",
+          "name": "accessibility",
+          "required": true,
+          "dataType": "@Accessibility",
+          "value": "$accessibility",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"Enhancing Accessibility through Consistent Alignment\"\n• Provides clear structure and navigation cues.\n• Enhances accessibility for visual impairments."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Visual Consistency"
+                    },
+                    {
+                      "text": "Ease of Reading"
+                    },
+                    {
+                      "text": "Hierarchy Reinforcement"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

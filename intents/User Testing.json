@@ -1,0 +1,85 @@
+{
+  "id": "97737839-7ada-46e1-ac42-3ed7c5e32a82",
+  "name": "User Testing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d9b947ee-22c5-44e1-b60b-e21764a98b9d",
+          "name": "usertesting",
+          "required": true,
+          "dataType": "@UserTesting",
+          "value": "$usertesting",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "User Testing Overview\n• Gathering feedback from real users.\n• Identifying usability issues.\n• Validating design decisions.\n• Iterating on design based on user insights."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "image",
+                  "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRVsCUXYP8Hm_TI3M_Ms0Iyq1-QvyvcfBlMq5CejxWzGQv5xUlbLgfexOdJyaHxY7QmASM\u0026usqp\u003dCAU",
+                  "accessibilityText": "Example logo"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Information Architecture"
+                    },
+                    {
+                      "text": "Visual Design"
+                    },
+                    {
+                      "text": "Iterative Improvement"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

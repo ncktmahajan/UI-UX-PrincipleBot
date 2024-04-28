@@ -1,0 +1,9 @@
+{
+  "id": "62a7f20b-5473-43f0-a62e-bc6c39fbdd0c",
+  "name": "MediaQueries",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

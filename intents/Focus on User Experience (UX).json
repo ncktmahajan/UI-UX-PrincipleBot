@@ -1,0 +1,79 @@
+{
+  "id": "0bad01fb-aeb1-416b-a601-52e3c3a630fb",
+  "name": "Focus on User Experience (UX)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0e29dee2-ac64-4d22-bf3f-aa5f62f6fc60",
+          "name": "UX",
+          "required": true,
+          "dataType": "@UX",
+          "value": "$UX",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Designing an experience includes not only making the software easy to use but also designing the other experiences related to the product...                                                                                                                                                     There research elements in UX."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Example logo",
+                  "type": "image",
+                  "rawUrl": "https://www.codeproject.com/KB/user-controls/717657/user-experience-pic.jpg"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Primary research"
+                    },
+                    {
+                      "text": "Secondary research"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

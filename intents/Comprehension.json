@@ -1,0 +1,80 @@
+{
+  "id": "b3b5a0a6-9884-4387-a89e-994f1286e404",
+  "name": "Comprehension",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0611b5a1-a514-43fa-b313-5d5de7e24b87",
+          "name": "comprehension",
+          "required": true,
+          "dataType": "@Comprehension",
+          "value": "$comprehension",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"Optimal Line Spacing Enhances Reading Experiences\"\n• Facilitates effective content comprehension.\n• Avoids overwhelm or fatigue."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Line Readability"
+                    },
+                    {
+                      "text": "Legibility"
+                    },
+                    {
+                      "text": "Line Accessibility"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

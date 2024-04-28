@@ -1,0 +1,85 @@
+{
+  "id": "0e79d40a-aaec-4f6f-af44-7d86ca4779df",
+  "name": "Transitions and Animations",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "79bde8b0-8348-4e18-af5c-ddf86c88a22b",
+          "name": "transitionsandanimations",
+          "required": true,
+          "dataType": "@TransitionsandAnimations",
+          "value": "$transitionsandanimations",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Motion Design for Interface Transitions\n• Creates smooth transitions.\n• Guides user attention.\n• Provides visual continuity."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Example logo",
+                  "type": "image",
+                  "rawUrl": "https://miro.medium.com/v2/resize:fit:596/1*0i2sLw80L7-AGewecMZQpQ.png"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "User Flows"
+                    },
+                    {
+                      "text": "Gestures and Touch Interactions"
+                    },
+                    {
+                      "text": "User Control and Freedom"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

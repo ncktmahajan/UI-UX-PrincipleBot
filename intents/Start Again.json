@@ -1,0 +1,83 @@
+{
+  "id": "9b65901d-e745-4f7f-a548-6f33ef7e2466",
+  "name": "Start Again",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3e533643-f69c-47f0-9d19-6f5d474cd9a4",
+          "name": "startagain",
+          "required": true,
+          "dataType": "@StartAgain",
+          "value": "$startagain",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to the UI/UX Principles Bot! 🎨🤖                                                                                                                                                                                                                                                                                                                   \nWhat do you want to know about UI Design...?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Prototyping"
+                    },
+                    {
+                      "text": "Wireframing"
+                    },
+                    {
+                      "text": "Typography"
+                    },
+                    {
+                      "text": "Interaction Design"
+                    },
+                    {
+                      "text": "App Design"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

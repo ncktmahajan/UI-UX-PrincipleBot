@@ -1,0 +1,80 @@
+{
+  "id": "4cdf2ed5-15ad-484a-8f82-16d41298a2dd",
+  "name": "Hierarchy Reinforcement",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2bc03410-5160-4a23-9360-2b4a8b1b8955",
+          "name": "hierarchyreinforcement",
+          "required": true,
+          "dataType": "@HierarchyReinforcement",
+          "value": "$hierarchyreinforcement",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hierarchy Reinforcement: Alignment\n• Visually grouping related elements.\n• Distinguishing between importance levels."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Visual Consistency"
+                    },
+                    {
+                      "text": "Ease of Reading"
+                    },
+                    {
+                      "text": "Accessibility"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

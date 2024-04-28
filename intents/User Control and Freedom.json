@@ -1,0 +1,82 @@
+{
+  "id": "8b943490-3e8a-4174-88b2-853f69ea89c1",
+  "name": "User Control and Freedom",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0e2aca68-006b-4720-9e7b-d0e4170e17ac",
+          "name": "usercontrolandfreedom",
+          "required": true,
+          "dataType": "@UserControlandFreedom",
+          "value": "$usercontrolandfreedom",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "User Control and Freedom\n• Enables easy navigation and action undo.\n• Minimizes errors.\n• Provides control over interactions."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://miro.medium.com/v2/resize:fit:1400/1*qso_xkVNq7vgkrwMWk7LsA.png",
+                  "accessibilityText": "Example logo",
+                  "type": "image"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "User Flows"
+                    },
+                    {
+                      "text": "Gestures and Touch Interactions"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "c71c9a58-3626-40c3-b35c-1c2d0ad975c8",
+  "name": "Alignment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "29e51978-79fe-4688-800d-c42d54cd652d",
+          "name": "alignment",
+          "required": true,
+          "dataType": "@Alignment",
+          "value": "$alignment",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alignment in Interface Design\n• Positions text relative to elements.\n• Enhances visual clarity, organization, aesthetics.\n• Contributes to polished user experience."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Example logo",
+                  "type": "image",
+                  "rawUrl": "https://miro.medium.com/v2/resize:fit:1400/1*aKHcw5O0DaYnPovYaWn4ew.png"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Visual Consistency"
+                    },
+                    {
+                      "text": "Ease of Reading"
+                    },
+                    {
+                      "text": "Hierarchy Reinforcement"
+                    },
+                    {
+                      "text": "Accessibility"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

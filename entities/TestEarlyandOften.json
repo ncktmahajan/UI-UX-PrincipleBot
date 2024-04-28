@@ -1,0 +1,9 @@
+{
+  "id": "4e5a492e-5a49-40d8-936b-9122199cb9e2",
+  "name": "TestEarlyandOften",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

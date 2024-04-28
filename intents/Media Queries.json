@@ -1,0 +1,80 @@
+{
+  "id": "6ce6c4c4-b83b-4b6e-ad19-9ca62db026f3",
+  "name": "Media Queries",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d034b374-dce9-4229-8f7e-8643042366aa",
+          "name": "mediaqueries",
+          "required": true,
+          "dataType": "@MediaQueries",
+          "value": "$mediaqueries",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Responsive Typography: CSS Media Queries\n• Apply styles based on device characteristics.\n• Consider screen width, pixel density, orientation."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Flexible Font Sizes"
+                    },
+                    {
+                      "text": "Dynamic Line Lengths"
+                    },
+                    {
+                      "text": "Adjustable Spacing"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

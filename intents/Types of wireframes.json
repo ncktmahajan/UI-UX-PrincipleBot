@@ -1,0 +1,71 @@
+{
+  "id": "aab40c0e-3f79-4ff3-bec5-2a1ffdd8d38a",
+  "name": "Types of wireframes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c4e72822-714c-42f6-97b0-4ca0dc75685d",
+          "name": "types-of-wireframes",
+          "required": true,
+          "dataType": "@Types-of-wireframes",
+          "value": "$types-of-wireframes",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "UX Design Wireframe Types\n• Low-Fidelity: Basic layout sketches for brainstorming.\n• High-Fidelity: Detailed wireframes with visual elements.\n• Interactive: Includes functionality for user interaction.\n• Annotated: Includes additional notes for clarity.\n• Responsive: Adapts to different screen sizes.\n• Storyboard: Sequential depictions of user interactions.\nEach type serves a specific purpose, aiding in design communication, planning, and testing."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

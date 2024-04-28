@@ -1,0 +1,9 @@
+{
+  "id": "7ef22dcc-0cab-486a-8ae9-76c88709baab",
+  "name": "Legibility",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

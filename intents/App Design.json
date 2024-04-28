@@ -1,0 +1,85 @@
+{
+  "id": "ab4c2564-549b-497a-b708-1578d4d140c8",
+  "name": "App Design",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "59bc8a5d-93b7-4686-a529-311be90b8f3b",
+          "name": "appdesign",
+          "required": true,
+          "dataType": "@AppDesign",
+          "value": "$appdesign",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "App Design in UX\n• Creating intuitive, efficient digital applications.\n• Involves stages: user research, wireframing, prototyping, usability testing.\n• Key considerations: user experience, efficiency, and delight."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "image",
+                  "rawUrl": "https://buildfire.com/wp-content/uploads/2016/11/mobile-app-design.jpg",
+                  "accessibilityText": "Example logo"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Information Architecture"
+                    },
+                    {
+                      "text": "Visual Design"
+                    },
+                    {
+                      "text": "User Testing"
+                    },
+                    {
+                      "text": "Iterative Improvement"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

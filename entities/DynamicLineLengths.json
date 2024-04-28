@@ -1,0 +1,9 @@
+{
+  "id": "b09b74f4-35c8-462c-b4a9-82d12583024c",
+  "name": "DynamicLineLengths",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

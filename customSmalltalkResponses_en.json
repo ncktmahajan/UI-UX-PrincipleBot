@@ -1,0 +1,26 @@
+[
+  {
+    "action": "smalltalk.appraisal.good",
+    "customAnswers": [
+      "Thank you for reaching out. Have a great day!"
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.thank_you",
+    "customAnswers": [
+      "Thank you for reaching out. Have a great day!"
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.welcome",
+    "customAnswers": [
+      "Thank you for reaching out. Have a great day!"
+    ]
+  },
+  {
+    "action": "smalltalk.appraisal.well_done",
+    "customAnswers": [
+      "Thank you for reaching out. Have a great day!"
+    ]
+  }
+]

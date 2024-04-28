@@ -1,0 +1,80 @@
+{
+  "id": "8bac3cc1-cec7-4186-b1ab-423c03ebf0d5",
+  "name": "Visual Consistency",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "46f50bd9-9008-4d29-903f-49a802b7c62d",
+          "name": "visualconsistency",
+          "required": true,
+          "dataType": "@VisualConsistency",
+          "value": "$visualconsistency",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Visual Consistency Importance\n• Aligns text elements for cohesive layout.\n• Improves interface\u0027s visual appearance."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Ease of Reading"
+                    },
+                    {
+                      "text": "Hierarchy Reinforcement"
+                    },
+                    {
+                      "text": "Accessibility"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

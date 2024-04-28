@@ -1,0 +1,9 @@
+{
+  "id": "cee5f3cc-0de7-4131-9fe7-1a3abbbf69c9",
+  "name": "key-insights",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

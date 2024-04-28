@@ -1,0 +1,9 @@
+{
+  "id": "2ffd5eaa-29ab-418c-8b9f-517497c53f63",
+  "name": "LineAccessibility",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

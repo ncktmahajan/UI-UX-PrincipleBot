@@ -1,0 +1,85 @@
+{
+  "id": "8f24974a-4759-417f-861d-6b6a5d930199",
+  "name": "Information Architecture",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9f12bb94-244b-4fea-870d-24880e2b260e",
+          "name": "informationarchitecture",
+          "required": true,
+          "dataType": "@InformationArchitecture",
+          "value": "$informationarchitecture",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Information Architecture in Apps\n• Organizing content and functionality for easy navigation.\n• Represented through site maps and user flows."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "rawUrl": "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/5936502/og_image/optimized/guide-to-information-architecture-faaa6bcd2d8adae6366964c153e442df.png",
+                  "type": "image",
+                  "accessibilityText": "Example logo"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Visual Design"
+                    },
+                    {
+                      "text": "User Testing"
+                    },
+                    {
+                      "text": "Iterative Improvement"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

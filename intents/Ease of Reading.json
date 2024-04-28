@@ -1,0 +1,80 @@
+{
+  "id": "af79c9f0-1a09-49ba-93c2-0eb1ef50e4a0",
+  "name": "Ease of Reading",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "580f7626-8cb6-4b4b-bf0f-91e8677ce279",
+          "name": "easeofreading",
+          "required": true,
+          "dataType": "@EaseofReading",
+          "value": "$easeofreading",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"Ease of Reading\"\n• Aligns text to common baseline.\n• Reduces cognitive load.\n• Enhances scanning and comprehension."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Visual Consistency"
+                    },
+                    {
+                      "text": "Hierarchy Reinforcement"
+                    },
+                    {
+                      "text": "Accessibility"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

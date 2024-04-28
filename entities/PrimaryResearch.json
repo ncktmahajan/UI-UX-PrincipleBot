@@ -1,0 +1,9 @@
+{
+  "id": "43612441-86d1-4c67-9297-02be09697b9f",
+  "name": "PrimaryResearch",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

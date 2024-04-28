@@ -1,0 +1,80 @@
+{
+  "id": "340a0880-08f6-409a-9d46-4538b9322271",
+  "name": "Adjustable Spacing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9ab3125f-c6ff-450c-adf3-224af4947f3b",
+          "name": "adjustablespacing",
+          "required": true,
+          "dataType": "@AdjustableSpacing",
+          "value": "$adjustablespacing",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"Adjustable Spacing for Mobile Devices\"\n• Improves readability and visual harmony.\n• Enhances screen real estate."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Flexible Font Sizes"
+                    },
+                    {
+                      "text": "Dynamic Line Lengths"
+                    },
+                    {
+                      "text": "Media Queries"
+                    },
+                    {
+                      "text": "More info?"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

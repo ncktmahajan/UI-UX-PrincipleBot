@@ -1,0 +1,9 @@
+{
+  "id": "633af42f-6b6a-423e-ba38-0175de4b8f69",
+  "name": "UserFlows",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

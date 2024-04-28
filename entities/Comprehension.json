@@ -1,0 +1,9 @@
+{
+  "id": "573237d4-5772-4d76-be0c-367b1c02528e",
+  "name": "Comprehension",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
